@@ -1,0 +1,151 @@
+/* Login.css */
+body {
+    background-color: rgb(159, 65, 168); /* Replace 'blue' with the desired color */
+  }
+  .headingText{
+   margin-left: 15cm;
+    color: #f7f4f4;
+  }
+.login-container {
+    max-width: 400px;
+    height: 8cm;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: -12.5cm;
+margin-left: 21cm;
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+justify-content: center;
+background-color: #fff;
+
+}
+.error {
+  color: #ff0000; /* Red color for error text */
+  font-size: 14px;
+  margin-top: 5px; 
+  margin-left: 1cm;/* Add spacing below the input field */
+}
+.Image {
+  width: 470px;
+  margin-top:1.4cm;
+  margin-left: 2.7cm;
+}
+
+.Register-container {
+  max-width: 400px;
+  height: 12.5cm;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.1);
+margin-top: -14.5cm;
+margin-left: 21cm;
+background-color: #fff;
+
+}
+  .heading {
+    margin-left: 4cm;
+    color: #0b0b0b;
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .landingutton{
+    width: 3cm;
+    margin-left: 32cm;
+    margin-top: -1cm;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:#131111;
+    margin-left: 1cm;
+    margin-top: 1cm;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 80%;
+    margin-left: 1cm;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    background-color: #5f0e5b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 4cm;
+    margin-top: 2cm;
+  }
+  
+  button:hover {
+    background-color: #300232;
+  }
+  .arrow-1 {
+    width:140px;
+    height:30px;
+    display: flex;
+    margin-top: -10cm;
+    margin-left: 18cm;
+  }
+  .arrow-1:before {
+    content: "";
+    background: currentColor;
+    width:15px;
+    color: #5f0e5b;
+    clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+    animation: a1 1.5s infinite linear;
+  }
+  @keyframes a1 {
+    90%,100%{flex-grow: 1}
+  }
+  
+  .arrow-2 {
+    width:140px;
+    height:30px;
+    display: flex;
+    margin-left: 25cm;
+    margin-top: -0.8cm;
+  }
+  .arrow-2:before {
+    content: "";
+    background: currentColor;
+    width:15px;
+    color: #5f0e5b;
+    clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+    animation: a1 1.5s infinite linear;
+  }
+  @keyframes a1 {
+    90%,100%{flex-grow: 1}
+  }
+  
+  /* .arrow-3 {
+    width:100px;
+    height:30px;
+    display: flex;
+    margin-left: 24cm;
+    margin-top: -0.8cm;
+  }
+  .arrow-3:before {
+    content: "";
+    background: currentColor;
+    width:15px;
+    color: #5f0e5b;
+    clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+    animation: a1 1.5s infinite linear;
+  }
+  @keyframes a1 {
+    90%,100%{flex-grow: 1}
+  }
+  
+   */

@@ -1,12 +1,58 @@
-.App {
-  text-align: center;
-}
 
+.squarebox {
+  width: 550px; /* Adjust the width to control the size of the square */
+  height: 400px; /* Set the same height as width to make it a square */
+  border: 2px solid #f7f9fa; /* Border style (you can change it) */
+  border-radius: 12px;
+  margin-left: 807px;
+  margin-top: -12.5cm;
+  box-shadow: 0 0 10px 12px rgba(150, 86, 154, 0.7); /* Apply a shadow effect */
+  transition: box-shadow 0.3s ease; /* Add a transition for the shadow effect */
+}
+.Image {
+  width: 450px;
+  margin-top:1cm;
+  margin-left: 3cm;
+}
+.textstyle{
+  font-size: x-large;
+  margin-left: 3cm;
+  color: white;
+}
+.inputstyle{
+  margin-left: 1cm;
+  margin-top: 0.7cm;
+  border-radius: 3cm;
+  width: 12.5cm;
+  height: 1.4cm;
+  background-color: #c080b3;
+  border-width: 0cm;
+  color: white;
+}
+.inputstyle::placeholder{
+  color: white; /* Set the placeholder text color to white */
+padding-left: 0.5cm;
+font-weight:800;
+}
+.ecoidamimage {
+  width: 250px;
+  margin-top:0.7cm;
+  margin-left: 4cm;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
+.logins{
+  margin-left: 5cm;
+  margin-top: 0.7cm;
+  border-radius: 3cm;
+  width: 3cm;
+  height: 1.3cm;
+  background-color: #c080b3;
+  border-width: 2px;
+  border-color: white;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
